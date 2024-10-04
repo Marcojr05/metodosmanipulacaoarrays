@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script type="text/javascript" src="js/script.js" defer></script>
+    <title>Exercício</title>
 </head>
 <body>
+    <h1>Métodos de manipulação de arrays</h1>
+
+    <input type="text" name="produto" id="produto" placeholder="Produto">
+
+    <input type="number" placeholder="Preço do produto" name="preco" id="preco">
     
+    <input type="number" placeholder="Quantidade em estoque" name="qtde" id="qtde">
+
+
+    <button type="submit" id="cadastrarPeca" onclick="createProduto()">Cadastrar</button>
+    <div id="msg"></div>
+    <hr>
+    <button type="submit" onclick="readProdutos()">Visualizar</button>
+    <button type="submit" onclick="pop()">Pop</button>
+    <button type="submit" onclick="shift()">Shift</button>
+    <button type="submit" onclick="unshift()">Unshift</button>
+    <button type="submit" onclick="indexOf()">indexOf</button>
+    <button type="submit" onclick="sort()">Sort</button>
+    <button type="submit" onclick="includes()">includes</button>
+    <button type="submit" onclick="find()">find</button>
+    <button type="submit" onclick="findIndex()">findIndex</button>
+    <button type="submit" onclick="reverse()">Reverse</button>
+    <button type="submit" onclick="split()">split</button>
+    <button type="submit" onclick="join()">join</button>
+    <div id="pecasCadastradas"></div>
 </body>
 </html>
